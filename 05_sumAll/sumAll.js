@@ -6,7 +6,6 @@ const sumAll = function(num1, num2) {
         num2 = num1
         num1 = jokerNumber
     }
-    else if(num1 < 0 )
     while(num1 <= num2){
         sum += num1;
         num1++
